@@ -1,0 +1,13 @@
+{
+  "name": "sync-agents",
+  "description": "Validate and sync agent .md frontmatter ↔ agent-registry.json. Detects missing agents, schema mismatches, and orphaned registry entries.",
+  "version": "1.0.0",
+  "author": {
+    "name": "SkyWalker2506",
+    "url": "https://github.com/SkyWalker2506"
+  },
+  "homepage": "https://github.com/SkyWalker2506/claude-config",
+  "repository": "https://github.com/SkyWalker2506/claude-plugins",
+  "license": "MIT",
+  "keywords": ["agents", "registry", "sync", "validation", "multi-agent", "ai-ops"]
+}
