@@ -7,7 +7,7 @@ Validate and sync agent `.md` frontmatter ↔ `agent-registry.json`. For use wit
 ## Install
 
 ```bash
-claude plugin install SkyWalker2506/ccplugin-sync-agents
+claude plugin install sync-agents@musabkara-claude-marketplace
 ```
 
 ## Commands
@@ -37,7 +37,6 @@ claude plugin install SkyWalker2506/ccplugin-sync-agents
 
 - `daily-check.sh` — `--check` mode
 - `install.sh` Phase 10 — `--check` with warning on failure
-- Pre-commit hook (if enabled)
 
 ## Requires
 
@@ -45,5 +44,6 @@ claude plugin install SkyWalker2506/ccplugin-sync-agents
 
 ## Part of
 
-- [claude-config](https://github.com/SkyWalker2506/claude-config) — Multi-Agent OS for Claude Code (110 agents, local-first routing)
-- [Plugin Marketplace](https://github.com/SkyWalker2506/claude-plugins) — Browse & install all plugins
+- [claude-config](https://github.com/SkyWalker2506/claude-config) — Multi-Agent OS for Claude Code (134 agents, local-first routing)
+- [Plugin Marketplace](https://github.com/SkyWalker2506/claude-marketplace) — Browse & install all 18 plugins
+- [ClaudeHQ](https://github.com/SkyWalker2506/ClaudeHQ) — Claude ecosystem HQ
