@@ -1,0 +1,40 @@
+{
+  "cds_version": "1.0",
+  "name": "ccplugin-sync-agents",
+  "type": "plugin",
+  "input_patterns": [
+    {
+      "type": "slash_command",
+      "commands": [
+        "/sync-agents"
+      ]
+    },
+    {
+      "type": "auto_trigger",
+      "keywords": [
+        "sync agents",
+        "agent registry",
+        "agent drift"
+      ],
+      "confirm": false,
+      "cooldown": 0
+    }
+  ],
+  "output_patterns": [
+    {
+      "type": "terminal_text",
+      "max_lines": 20
+    }
+  ],
+  "lifecycle": {
+    "preflight": {
+      "required_tools": [],
+      "required_secrets": [],
+      "required_mcp": []
+    }
+  },
+  "error_handling": {
+    "retry_network": false,
+    "max_retries": 0
+  }
+}
